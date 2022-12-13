@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            width: 100%;
+            padding: 10px
+        }
+        
+        img {
+            border-radius: 80%;
+            border: 2px solid red;
+            height: 100px;
+        }
+        
+        header {
+            display: flex;
+            padding: 10px 10px;
+        }
+        
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar li a:hover {
+            color: orange;
+        }
+        
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 200px;
+        }
+        
+        button {
+            background-color: grey;
+            color: white;
+            border-radius: 14px;
+            height: 30px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: orange;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://img.freepik.com/premium-vector/mountain-compass-logo-design-vector-illustration_693697-211.jpg?w=360" alt="logo" class="logo">
+        <nav class="navbar">
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sevices</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Type to Search">
+                    <a class="Search_it" href="#"> <button>Search</button></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
